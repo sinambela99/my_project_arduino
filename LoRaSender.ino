@@ -103,19 +103,7 @@ void loop() {
 
   read_acceleration(); 
   convert_skalarichter(); 
- /*
- Serial.print(acceleration_x); Serial.print(" "); 
- Serial.print(acceleration_y); Serial.print(" "); 
-http://digilib.mercubuana.ac.id/
-27
- Serial.print(acceleration_z); Serial.print(" "); 
- Serial.println(acceleration); 
- */ 
- /*
- Serial.print(acceleration); Serial.print(" "); 
- Serial.print(magnitude); Serial.print(" "); 
- Serial.println(skalarichter); 
- */ 
+ 
  Serial.println(skalarichter); 
  if(skalarichter>5) { 
  flag=1; 
