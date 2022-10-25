@@ -105,7 +105,7 @@ void loop() {
   convert_skalarichter(); 
  
  Serial.println(skalarichter); 
- if(skalarichter>5) { 
+ if(skalarichter>4) { 
  flag=1; 
  }
  if(flag==1) 
